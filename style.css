@@ -1,0 +1,50 @@
+* {
+    margin: auto;
+    padding: 5px;
+}
+
+body {
+    background-image: url('img/imgFundoClaro.jpg');
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.center {
+    align-items: center;
+}
+
+#background {
+    width: 25%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+#enviar {
+   margin-left: 40%;
+}
+
+#textLogin {
+    text-align: center;
+}
+
+.design {
+    width:200px;
+    height: 25px;
+    border-top: 0 solid;
+    border-left: 0 solid;
+    border-right: 0 solid;
+    border-bottom: 3px solid transparent;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, blue, yellow);
+    background-image: url('olho.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 40%; 
+}
