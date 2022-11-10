@@ -18,9 +18,10 @@ body {
 }
 
 #background {
-    width: 25%;
+    width: 22%;
     background-color: white;
     border-radius: 5%;
+    box-shadow: 10px 5px 5px black;
 }
 
 #enviar {
@@ -42,9 +43,20 @@ body {
     border-bottom-style: solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(45deg, blue, yellow);
-    background-image: url('olho.png');
     background-size: 15%;
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 40%; 
 }
+
+.design:focus {
+    outline: none
+}
+
+#eye {
+    background-image: url('img/olho.png');
+}
+
+#esquecirSenha {
+    margin-left: 10%;
+} 
