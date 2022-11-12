@@ -4,31 +4,35 @@
 }
 
 body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url('img/imgFundoClaro.jpg');
 }
 
 #flex {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-}
-
-.center {
+    margin-top: 7%;
     align-items: center;
-}
-
-#background {
-    width: 22%;
+    /* design container */
+    height: 30rem;
+    width: 30rem;
     background-color: white;
     border-radius: 5%;
     box-shadow: 10px 5px 5px black;
 }
 
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
 #enviar {
+   background-color: #00A5F1;
    margin-left: 40%;
 }
 
 #textLogin {
+    margin-top: -50%;
     text-align: center;
 }
 
