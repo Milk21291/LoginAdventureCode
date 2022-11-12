@@ -18,7 +18,7 @@ body {
     width: 30rem;
     background-color: white;
     border-radius: 5%;
-    box-shadow: 10px 5px 5px black;
+    background-color: transparent;
 }
 
 .center {
@@ -27,11 +27,17 @@ body {
 }
 
 #enviar {
-   background-color: #00A5F1;
-   margin-left: 40%;
+   width: 15rem;
+   border-radius: 10px;
+   background-color: transparent;
+   margin-left: 10%;
+   border-color: #00A5F1;
+   border-width: 3px;
+   border-style: solid;
 }
 
 #textLogin {
+    font-size: 300%;
     margin-top: -50%;
     text-align: center;
 }
@@ -51,6 +57,7 @@ body {
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 40%; 
+    background-color: transparent;
 }
 
 .design:focus {
