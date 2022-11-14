@@ -27,23 +27,32 @@ body {
 }
 
 #enviar {
-   width: 15rem;
+   width: 16rem;
    border-radius: 10px;
    background-color: transparent;
-   margin-left: 10%;
    border-color: #00A5F1;
    border-width: 3px;
    border-style: solid;
 }
 
+#enviar:hover {
+    width: 16rem;
+    border-radius: 10px;
+    background-color: #00A5F1;
+    border-color: #00A5F1;
+    border-width: 3px;
+    border-style: solid;
+    transition: 1s;
+ }
+ 
+
 #textLogin {
     font-size: 300%;
-    margin-top: -50%;
     text-align: center;
 }
 
 .design {
-    width:200px;
+    width:245px;
     height: 25px;
     border-top: 0 solid;
     border-left: 0 solid;
@@ -52,7 +61,7 @@ body {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(45deg, blue, yellow);
+    border-image-source: linear-gradient(45deg, rgb(5, 5, 121), #00A5F1);
     background-size: 15%;
     background-repeat: no-repeat;
     background-position-x: 95%;
@@ -67,7 +76,3 @@ body {
 #eye {
     background-image: url('img/olho.png');
 }
-
-#esquecirSenha {
-    margin-left: 10%;
-} 
