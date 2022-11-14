@@ -49,6 +49,22 @@ body {
 #textLogin {
     font-size: 300%;
     text-align: center;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes text {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 8px;
+    }
+    100% {
+        top: 0px;
+    }
 }
 
 .design {
