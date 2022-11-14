@@ -92,3 +92,8 @@ body {
 #eye {
     background-image: url('img/olho.png');
 }
+
+#esqueceuSenha {
+    color: #0051ff;
+    text-decoration: none;
+}
