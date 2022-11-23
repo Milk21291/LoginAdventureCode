@@ -10,16 +10,37 @@
 <body>
     <div id="flex">
         <form action="#" id="background" class="center">
-            <h3 id="textLogin" class="center">Preencha o login para entrar</h3><br><br>
-            <label class="center">E-mail:</label>
-            <input class="design" class="center" type="email" name="email" required placeholder="Digite seu melhor email" autofocus><br><br>
-            <label class="center">Senha:</label>
-            <input id="eye" class="design" class="center" type="password" name="senha" required placeholder="Digite sua senha"><br><br>
+
+            <h3 id="textLogin" class="center">CADASTRO</h3><br><br>
+
+            <label class="center">Nome do usuário</label><br>
+
+            <input class="design" class="center" type="email" name="email" required placeholder="username" autofocus><br><br>
+
+            <label class="center">E-mail</label><br>
+
+            <input class="design" class="center" type="email" name="email" required placeholder="@mail.com" autofocus><br><br>
+
+            <label class="center">Senha</label><br>
+
+            <input id="eye" class="design" class="center" type="password" name="senha" required placeholder="Password"><br><br>
+
+            <label class="center">Nome do usuário</label><br>
+
+            <input class="design" class="center" type="email" name="email" required placeholder="username" autofocus><br><br>
+
             <input class="center" type="checkbox" name="lembrarSenha">
-            <label class="center">Lembrar senha</label><br><br>
-            <input id="enviar" class="center" type="submit" name="enviar"><br><br>
-            <a href=""><label id="esquecirSenha" class="center">Esquecir a senha</label></a>
-            <a href=""><label class="center">Cadastro</label></a>
+
+            <label class="center">Lembrar senha</label>
+
+            <a id="esqueceuSenha" href="">Esqueceu a senha?</a><br><br>
+
+            <button id="enviar" class="center">Cadastrar novo usuário</button><br><br>
+
+            <label for="">Não Tem Uma Conta?</label>
+            
+            <a class="center" id="linkHtml" src="cadastro.html" href="cadastro.html" onclick="location.href"> inscrever-se</a>
+         
         </form>
     </div>
     <script src="/index.js"></script>
